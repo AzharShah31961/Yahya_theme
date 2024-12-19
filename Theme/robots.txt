@@ -1,0 +1,535 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <title>Academy LMS | Creativeitem</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <!-- Favicon -->
+    <link id="favicon" rel="shortcut icon" href="iframe-demo/assets/marketplaces/codecanyon/academy/logo-sm.png" type="image/x-icon"/>
+
+    <!-- Bootstrap CSS -->
+    <link href="iframe-demo/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- fontawesome min CSS -->
+    <link rel="stylesheet" href="iframe-demo/assets/vendors/fontawesome/fontawesome.css" />
+    <!-- Main CSS -->
+    <link href="iframe-demo/assets/scss/style.css" rel="stylesheet" />
+    <link href="iframe-demo/assets/css/custom.css" rel="stylesheet" />
+    <script src="iframe-demo/assets/js/jquery.min.js"></script>
+
+  </head>
+
+  <body>
+
+
+
+
+
+
+
+    <!-- Start Main Header -->
+    <header id="main-header" class="main-header">
+      <div class="menu-header demo-header">
+        <div class="container container-demo">
+          <div class="main-menu">
+            <div class="row justify-content-between align-items-center">
+              <div class="col-auto">
+                <div class="logo">
+                  <a href="" class="desk-logo">
+                    <img src="iframe-demo/assets/img/logo-demo.png" alt="logo" />
+                  </a>
+                  <a href="" class="mobile-logo">
+                    <img src="iframe-demo/assets/img/logo-icon.png" alt="logo" />
+                  </a>
+                </div>
+              </div>
+              <div class="col-auto">
+                <!--Main Menu-->
+                <div class="main-menu-navigation main-menu-navigation-demo">
+                  <nav class="navigation-main-area ul-li">
+                    <ul>
+                      <li class="dropdown">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#productsModal" id="selectedProductItem">
+                          <span>
+                            <img class="product-logo-sm" src="iframe-demo/assets/marketplaces/codecanyon/academy/logo-sm.png" alt=""/>
+                          </span>
+                          <span>Academy LMS</span>
+                          <img class="dropdown-bottom-svg mx-2" src="iframe-demo/assets/svg/angle-arrow-down.svg">
+                          <!-- <i class="fa-solid fa-long-arrow-right"></i> -->
+                        </a>
+                      </li>
+                      <li><a id="buyLink" href="https://1.envato.market/jGqOZ" class="buyNow-btn" target="_blank"><span></span> Buy</a></li>
+                    </ul>
+                  </nav>
+                  
+                  <!-- Demo Responsive Icon -->
+                  <!-- <div class="demo-responsive-icon">
+                    <ul>
+                      <li>
+                        <button class="active">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="45.305" height="29.755" viewBox="0 0 45.305 29.755">
+                            <g id="laptop" transform="translate(0 -16.713)">
+                              <g id="Group_53" data-name="Group 53" transform="translate(0 16.713)">
+                                <path id="Path_3105" data-name="Path 3105" d="M45.249,71.169a.23.23,0,0,0-.174-.08H.23A.231.231,0,0,0,0,71.353c.007.042.683,4.194,5.933,4.194H39.369c5.249,0,5.926-4.152,5.933-4.194A.233.233,0,0,0,45.249,71.169ZM26.025,74.093H19.279V72.542h6.746Z" transform="translate(0 -45.793)" fill="#676c7d"/>
+                                <path id="Path_3106" data-name="Path 3106" d="M9.437,40.4H44.966a.931.931,0,0,0,.93-.93V17.643a.931.931,0,0,0-.93-.93H9.437a.931.931,0,0,0-.93.93V39.465A.931.931,0,0,0,9.437,40.4Zm2.326-20.426H42.64V37.139H11.763V19.969Z" transform="translate(-4.549 -16.713)" fill="#676c7d"/>
+                              </g>
+                            </g>
+                          </svg>
+                        </button>
+                      </li>
+                      <li>
+                        <button>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="25.821" height="29.509" viewBox="0 0 25.821 29.509">
+                            <path id="tablet-screen-button-solid" d="M0,3.689A3.692,3.692,0,0,1,3.689,0H22.132a3.692,3.692,0,0,1,3.689,3.689V25.821a3.692,3.692,0,0,1-3.689,3.689H3.689A3.692,3.692,0,0,1,0,25.821ZM14.755,25.821a1.844,1.844,0,1,0-1.844,1.844A1.842,1.842,0,0,0,14.755,25.821ZM22.132,3.689H3.689V22.132H22.132Z" fill="#676c7d"/>
+                          </svg>
+                        </button>
+                      </li>
+                      <li>
+                        <button>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="19.181" height="29.51" viewBox="0 0 19.181 29.51">
+                            <path id="mobile-phone" d="M19.73,0H6.451A2.96,2.96,0,0,0,3.5,2.951V26.559A2.96,2.96,0,0,0,6.451,29.51H19.73a2.96,2.96,0,0,0,2.951-2.951V2.951A2.96,2.96,0,0,0,19.73,0Zm-5.9,26.559H12.353a1.479,1.479,0,0,1-1.475-1.475,1.587,1.587,0,0,1,1.475-1.475h1.475A1.479,1.479,0,0,1,15.3,25.083,1.394,1.394,0,0,1,13.828,26.559Zm5.9-5.9H6.451V2.951H19.73Z" transform="translate(-3.5)" fill="#676c7d"/>
+                          </svg>
+                        </button>
+                      </li>
+                    </ul>
+                  </div> -->
+                </div>
+              </div>
+              <!--<div class="col-auto display-flex text-center">-->
+              <!--    <a href="https://codecanyon.net/item/locus-real-estate-business-directory-listing/48212717" target="_blank"><img src="iframe-demo/ads/new-release-locus.png" style="height: 40px;"></a>-->
+              <!--    <img src="iframe-demo/ads/creative-lms-latest.png" style="height: 40px;">-->
+              <!--</div>-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End Main Header -->
+
+    <iframe id="demoIframe" src="https://demo.creativeitem.com/academy" class="w-100 h-100"></iframe>
+
+    
+<!-- Modal -->
+<div class="modal demo-modal" id="productsModal" tabindex="-1" aria-labelledby="productsModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content demo-modal-content">
+      <!-- Close button -->
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="row align-items-start">
+        <div class="col-lg-8">
+          <div class="demo-items-wrap" style="min-height: 505px;">
+            <div class="demo-item-dropdown">
+              <button id="marketplaceDropdown" type="button" class="dropdown-btn dropdown-toggle p-2" data-bs-toggle="dropdown" aria-expanded="false">
+                <img class="marketplace-logo-sm" src="iframe-demo/assets/marketplaces/codecanyon/logo-sm.png" alt=""/>
+                Codecanyon Products                <img class="dropdown-bottom-svg" src="iframe-demo/assets/svg/angle-arrow-down.svg">
+              </button>
+              <ul class="dropdown-menu" id="marketplaceDropdownMenu">
+                                	                	                  <li class="creativeelement">
+                    <a class="dropdown-item" href="#" onclick="switchMarketplace('creativeelement')">
+                    	<img class="marketplace-logo-sm" src="iframe-demo/assets/marketplaces/creativeelement/logo-sm.png" alt=""/>
+                    	Creative Elements                    </a>
+                  </li>
+                              </ul>
+            </div>
+            
+            
+            <div class="demo-items" id="products">
+            						<a href="#" onclick="loadDemo('codecanyon', 'academy_laravel')" class="demo-item" onmouseover="productPreview('codecanyon', 'academy_laravel')">
+						<div class="icon">
+                              <img class="h-65px" src="iframe-demo/assets/marketplaces/codecanyon/academy_laravel/logo-sm.png" alt="" />
+              						</div>
+            						  <h3 class="title">Academy Laravel LMS</h3>
+            					</a>
+									<a href="#" onclick="loadDemo('codecanyon', 'academy')" class="demo-item" onmouseover="productPreview('codecanyon', 'academy')">
+						<div class="icon">
+                              <img class="h-65px" src="iframe-demo/assets/marketplaces/codecanyon/academy/logo-sm.png" alt="" />
+              						</div>
+            						  <h3 class="title">Academy LMS</h3>
+            					</a>
+									<a href="#" onclick="loadDemo('codecanyon', 'locus')" class="demo-item" onmouseover="productPreview('codecanyon', 'locus')">
+						<div class="icon">
+                              <img class="h-65px" src="iframe-demo/assets/marketplaces/codecanyon/locus/logo-sm.png" alt="" />
+              						</div>
+            						  <h3 class="title">Locus</h3>
+            					</a>
+									<a href="#" onclick="loadDemo('codecanyon', 'workplace')" class="demo-item" onmouseover="productPreview('codecanyon', 'workplace')">
+						<div class="icon">
+                              <img class="h-65px" src="iframe-demo/assets/marketplaces/codecanyon/workplace/logo-sm.png" alt="" />
+              						</div>
+            						  <h3 class="title">Workplace</h3>
+            					</a>
+									<a href="#" onclick="loadDemo('codecanyon', 'sociopro')" class="demo-item" onmouseover="productPreview('codecanyon', 'sociopro')">
+						<div class="icon">
+                              <img class="h-65px" src="iframe-demo/assets/marketplaces/codecanyon/sociopro/logo-sm.png" alt="" />
+              						</div>
+            						  <h3 class="title">Sociopro</h3>
+            					</a>
+									<a href="#" onclick="loadDemo('codecanyon', 'ekattor8')" class="demo-item" onmouseover="productPreview('codecanyon', 'ekattor8')">
+						<div class="icon">
+                              <img class="h-65px" src="iframe-demo/assets/marketplaces/codecanyon/ekattor8/logo-sm.png" alt="" />
+              						</div>
+            						  <h3 class="title">Ekattor 8</h3>
+            					</a>
+									<a href="#" onclick="loadDemo('codecanyon', 'ekattor')" class="demo-item" onmouseover="productPreview('codecanyon', 'ekattor')">
+						<div class="icon">
+                              <img class="h-65px" src="iframe-demo/assets/marketplaces/codecanyon/ekattor/logo-sm.png" alt="" />
+              						</div>
+            						  <h3 class="title">Ekattor 7</h3>
+            					</a>
+									<a href="#" onclick="loadDemo('codecanyon', 'atlas')" class="demo-item" onmouseover="productPreview('codecanyon', 'atlas')">
+						<div class="icon">
+                              <img class="h-65px" src="iframe-demo/assets/marketplaces/codecanyon/atlas/logo-sm.png" alt="" />
+              						</div>
+            						  <h3 class="title">Atlas</h3>
+            					</a>
+									<a href="#" onclick="loadDemo('codecanyon', 'neoflex3')" class="demo-item" onmouseover="productPreview('codecanyon', 'neoflex3')">
+						<div class="icon">
+                              <img class="h-65px" src="iframe-demo/assets/marketplaces/codecanyon/neoflex3/logo-sm.png" alt="" />
+              						</div>
+            						  <h3 class="title">Neoflex 3</h3>
+            					</a>
+									<a href="#" onclick="loadDemo('codecanyon', 'neoflex')" class="demo-item" onmouseover="productPreview('codecanyon', 'neoflex')">
+						<div class="icon">
+                              <img class="h-65px" src="iframe-demo/assets/marketplaces/codecanyon/neoflex/logo-sm.png" alt="" />
+              						</div>
+            						  <h3 class="title">Neoflex</h3>
+            					</a>
+									<a href="#" onclick="loadDemo('codecanyon', 'ekushey')" class="demo-item" onmouseover="productPreview('codecanyon', 'ekushey')">
+						<div class="icon">
+                              <img class="h-65px" src="iframe-demo/assets/marketplaces/codecanyon/ekushey/logo-sm.png" alt="" />
+              						</div>
+            						  <h3 class="title">Ekushey</h3>
+            					</a>
+									<a href="#" onclick="loadDemo('codecanyon', 'bayanno')" class="demo-item" onmouseover="productPreview('codecanyon', 'bayanno')">
+						<div class="icon">
+                              <img class="h-65px" src="iframe-demo/assets/marketplaces/codecanyon/bayanno/logo-sm.png" alt="" />
+              						</div>
+            						  <h3 class="title">Bayanno</h3>
+            					</a>
+				            </div>
+          </div>
+        </div>
+        <div class="col-lg-4" id="previewProduct">
+        	<div class="demo-product-feature">
+            <h4 class="title">Academy LMS</h4>
+            
+            <div class="thumb">
+                              
+                <img src="iframe-demo/assets/marketplaces/codecanyon/academy/banner.png" alt="" />
+                          </div>
+            <p class="info">Academy is a learning management system. This software is designed to create, distribute, and manage educational content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <script>
+	var marketplaces = 
+{
+  "codecanyon": {
+    "title": "Codecanyon Products",
+    "description": "No desciption No desciptionNo desciptionNo desciptionNo desciptionNo desciptionNo desciptionNo desciptionNo desciption",
+    "products": {
+      "academy_laravel": {
+        "framework": "laravel",
+        "demo_url": "https:\/\/demo.creativeitem.com\/academy-laravel",
+        "title": "Academy Laravel LMS",
+        "description": "Academy laravel is a learning management system. This software is designed to create, distribute, and manage educational content.",
+        "documentation": "https:\/\/creativeitem.com\/docs\/academy-lms-laravel\/what-academy-lms-laravel-does",
+        "youtube": "https:\/\/www.youtube.com\/watch?v=iTlsP6RfCQ8",
+        "buy_now": "https:\/\/codecanyon.net\/item\/academy-lms-laravel-learning-management-system\/53102497"
+      },
+      "academy": {
+        "framework": "codeigniter",
+        "demo_url": "https:\/\/demo.creativeitem.com\/academy",
+        "title": "Academy LMS",
+        "description": "Academy is a learning management system. This software is designed to create, distribute, and manage educational content.",
+        "documentation": "https:\/\/creativeitem.com\/docs\/academy-lms\/how-academy-works",
+        "youtube": "https:\/\/www.youtube.com\/playlist?list=PLR1GrQCi5Zqvhh7wgtt-ShMAM1RROYJgE",
+        "buy_now": "https:\/\/1.envato.market\/jGqOZ"
+      },
+      "locus": {
+        "framework": "Laravel",
+        "demo_url": "https:\/\/demo.creativeitem.com\/locus",
+        "title": "Locus",
+        "description": "Locus is a real estate directory listing website for your business. In this platform, you can create subscription-based packages for your agents. They can list different properties in your application by purchasing a package.",
+        "documentation": "https:\/\/creativeitem.com\/docs\/locus\/what-is-locus",
+        "youtube": "https:\/\/www.youtube.com\/playlist?list=PLR1GrQCi5Zqvhh7wgtt-ShMAM1RROYJgE",
+        "buy_now": "https:\/\/codecanyon.net\/item\/locus-real-estate-business-directory-listing\/48212717"
+      },
+      "workplace": {
+        "framework": "Laravel",
+        "demo_url": "https:\/\/demo.creativeitem.com\/workplace",
+        "title": "Workplace",
+        "description": "The Workplace is designed for organizations and companies to connect, communicate, and cooperate with their teams and employees using the Workplace.",
+        "documentation": "https:\/\/creativeitem.com\/docs\/workplace\/what-is-workplace",
+        "youtube": "https:\/\/www.youtube.com\/playlist?list=PLR1GrQCi5Zqvhh7wgtt-ShMAM1RROYJgE",
+        "buy_now": "https:\/\/codecanyon.net\/item\/workplace-office-management-and-hr-laravel-application\/48484367"
+      },
+      "sociopro": {
+        "framework": "laravel",
+        "demo_url": "https:\/\/demo.creativeitem.com\/sociopro",
+        "title": "Sociopro",
+        "description": "Sociopro is a networking platform that helps to build a secure social networking website for you.",
+        "documentation": "https:\/\/creativeitem.com\/docs\/sociopro\/what-is-sociopro",
+        "youtube": "https:\/\/www.youtube.com\/playlist?list=PLR1GrQCi5ZqtHjM3Y5HyaUp7TPqrU2FrZ",
+        "buy_now": "https:\/\/codecanyon.net\/item\/sociopro-the-ultimate-private-social-network\/40326419"
+      },
+      "ekattor8": {
+        "framework": "laravel",
+        "demo_url": "https:\/\/demo.creativeitem.com\/ekattor8/login",
+        "title": "Ekattor 8",
+        "description": "Ekattor 8 is a collection of programs designed to assist schools in administering their executive responsibilities on a day-to-day basis",
+        "documentation": "https:\/\/creativeitem.com\/docs\/ekattor-8\/what-is-ekattor-8",
+        "youtube": "https:\/\/www.youtube.com\/c\/Creativeitemteam\/videos",
+        "buy_now": "https:\/\/codecanyon.net\/item\/ekattor-8-school-management-system\/39611172"
+      },
+      "ekattor": {
+        "framework": "codeigniter",
+        "demo_url": "https:\/\/demo.creativeitem.com\/ekattor\/login",
+        "title": "Ekattor 7",
+        "description": "The Ekattor 7 School Management System ERP (Enterprise Resource Planning) is a collection of programs designed to assist schools in administering their executive responsibilities on a day-to-day basis",
+        "documentation": "https:\/\/creativeitem.com\/docs\/ekattor-school-erp\/what-is-ekattor",
+        "youtube": "https:\/\/www.youtube.com\/playlist?list=PLR1GrQCi5ZqtFfm-QkyWZsBupnJ6xykfe",
+        "buy_now": "https:\/\/codecanyon.net\/collections\/shared\/2a63b7a58763010cfe2ca82d28b55e44d01a50eb4cfecf7150aa41731423524f"
+      },
+      "atlas": {
+        "framework": "codeigniter",
+        "demo_url": "https:\/\/demo.creativeitem.com\/atlas",
+        "title": "Atlas",
+        "description": "Atlas is a professional business directory listing website. Atlas is a kind of web page that lists businesses and directories that exist on a website.",
+        "documentation": "https:\/\/www.creativeitem.com\/docs\/atlas",
+        "youtube": "https:\/\/www.youtube.com\/channel\/UCY2eDAOrgMmH0Jbt4QEQIFA",
+        "buy_now": "https:\/\/1.envato.market\/KvZV9"
+      },
+      "neoflex3": {
+        "framework": "laravel",
+        "demo_url": "https:\/\/demo.creativeitem.com\/neoflex3",
+        "title": "Neoflex 3",
+        "description": "NEOFLEX 3 is a subscription based video content management system. Create your own movie and tv series website using NEOFLEX 3. Sale them to your customers in a monthly subscription model and build up your video content business.",
+        "documentation": "https:\/\/www.creativeitem.com\/docs\/neoflex3",
+        "youtube": "https:\/\/www.youtube.com\/channel\/UCY2eDAOrgMmH0Jbt4QEQIFA",
+        "buy_now": "https:\/\/codecanyon.net\/item\/neoflex-3-laravel-movie-video-tv-series-streaming-subscription-portal-cms\/49597962"
+      },
+      "neoflex": {
+        "framework": "codeigniter",
+        "demo_url": "https:\/\/demo.creativeitem.com\/neoflex",
+        "title": "Neoflex",
+        "description": "NEOFLEX is a subscription based video content management system. Create your own movie and tv series website using NEOFLEX. Sale them to your customers in a monthly subscription model and build up your video content business.",
+        "documentation": "https:\/\/www.creativeitem.com\/docs\/neoflex",
+        "youtube": "https:\/\/www.youtube.com\/channel\/UCY2eDAOrgMmH0Jbt4QEQIFA",
+        "buy_now": "https:\/\/1.envato.market\/xj1Ny"
+      },
+      "ekushey": {
+        "framework": "codeigniter",
+        "demo_url": "https:\/\/demo.creativeitem.com\/ekushey",
+        "title": "Ekushey",
+        "description": "Ekushey is a very advanced and powerful project, client, and team management application. It manages all project, team tasks, and client communication within a single place and in a super conventional way",
+        "documentation": "https:\/\/www.creativeitem.com\/docs\/ekushey",
+        "youtube": "https:\/\/www.youtube.com\/channel\/UCY2eDAOrgMmH0Jbt4QEQIFA",
+        "buy_now": "https:\/\/1.envato.market\/a9EWY"
+      },
+      "bayanno": {
+        "framework": "codeigniter",
+        "demo_url": "https:\/\/demo.creativeitem.com\/bayanno",
+        "title": "Bayanno",
+        "description": "Bayanno Hospital Management System is the most complete and multi-functional hospital or medical center management system on Codecanyon. It collaborates admin, patients, doctors, nurses, laboratorists, pharmacists, receptionist, accountants so that all the paperworks and manual tiresome works can be automated easily and efficiently.",
+        "documentation": "https:\/\/creativeitem.com\/docs",
+        "youtube": "https:\/\/www.youtube.com\/channel\/UCY2eDAOrgMmH0Jbt4QEQIFA",
+        "buy_now": "https:\/\/1.envato.market\/gQyJg"
+      }
+    }
+  },
+  "creativeelement": {
+    "title": "Creativeitem Products",
+    "description": "",
+    "products": {
+      "6153084": {
+        "framework": "laravel",
+        "demo_url": "https:\/\/demo.creativeitem.com\/laravel-themes\/digital_agency",
+        "title": "Nexa Flux",
+        "description": "Nexaflux is a robust Laravel-based application designed specifically for digital agencies. It serves as a comprehensive platform for managing various aspects of digital marketing and agency operations",
+        "documentation": "https:\/\/creativeitem.com\/docs\/academy-lms\/how-academy-works",
+        "youtube": "https:\/\/www.youtube.com\/playlist?list=PLR1GrQCi5Zqvhh7wgtt-ShMAM1RROYJgE",
+        "buy_now": "https:\/\/1.envato.market\/jGqOZ"
+      }
+    }
+  }
+}
+;
+
+	// Make an AJAX request to the API
+	$.ajax({
+	    url: 'https://creativeitem.com/api/elements/laravel-themes',
+	    method: 'GET',
+	    dataType: 'json',
+	    success: function(apiData) {
+	      // Check if the API response contains 'creativeelement'
+	      if (apiData.creativeelement) {
+	        // Merge the API data with the existing marketplaces data
+	        marketplaces = Object.assign({}, marketplaces, apiData);
+	      }
+	    },
+	    error: function(jqXHR, textStatus, errorThrown) {
+	      console.error('API request failed:', errorThrown);
+	    }
+	});
+
+	$('a[href="#"]').on('click', function(event){
+		event.preventDefault();
+	});
+
+
+	function productPreview(marketplace, identifier){
+		let productTitle = marketplaces[marketplace].products[identifier].title;
+		let productDescription = marketplaces[marketplace].products[identifier].description;
+		if(marketplace == 'creativeelement') {
+			var productContent = '<div class="demo-product-feature"><h4 class="title">'+productTitle+'</h4><div class="thumb"><img src="'+marketplaces[marketplace].products[identifier].thumbnail+'" alt="" /></div><p class="info">'+productDescription+'</p></div>';
+
+		} else {
+			var productContent = '<div class="demo-product-feature"><h4 class="title">'+productTitle+'</h4><div class="thumb"><img src="iframe-demo/assets/marketplaces/'+marketplace+'/'+identifier+'/banner.png" alt="" /></div><p class="info">'+productDescription+'</p></div>';
+		}
+
+		$('#previewProduct').html(productContent);
+	}
+
+	function switchMarketplace(selectedMarketplace){
+		let products = marketplaces[selectedMarketplace].products;
+		let title = marketplaces[selectedMarketplace].title;
+		let marketplaceDropdownVal = '<img class="marketplace-logo-sm" src="iframe-demo/assets/marketplaces/'+selectedMarketplace+'/logo-sm.png" alt=""/> '+title;
+		$('#marketplaceDropdown').html(marketplaceDropdownVal);
+		$('#marketplaceDropdownMenu').html('');
+
+
+		$.each(marketplaces, function(marketplace, data) {
+			if(marketplace != selectedMarketplace){
+		    	$('#marketplaceDropdownMenu').append('<li class="'+marketplace+'"><a class="dropdown-item" href="#" onclick="switchMarketplace(&#39;'+marketplace+'&#39;)"><img class="marketplace-logo-sm" src="iframe-demo/assets/marketplaces/'+marketplace+'/logo-sm.png" alt=""/> '+data.title+'</a></li>');
+		    }
+		});
+
+
+		$('#products').html("");
+		$.each(products, function(identifier, productData) {
+			if(selectedMarketplace == 'creativeelement') {
+		    	var productItem = '<a href="javascript:;" onclick="loadDemo(&#39;'+selectedMarketplace+'&#39;, &#39;'+identifier+'&#39;)" class="demo-item" onmouseover="productPreview(&#39;'+selectedMarketplace+'&#39;, &#39;'+identifier+'&#39;)"><div class="icon"><img class="h-65px" src="'+productData.thumbnail+'" alt="" /></div></a>';
+		    } else {
+		    	var productItem = '<a href="javascript:;" onclick="loadDemo(&#39;'+selectedMarketplace+'&#39;, &#39;'+identifier+'&#39;)" class="demo-item" onmouseover="productPreview(&#39;'+selectedMarketplace+'&#39;, &#39;'+identifier+'&#39;)"><div class="icon"><img class="h-65px" src="iframe-demo/assets/marketplaces/'+selectedMarketplace+'/'+identifier+'/logo-sm.png" alt="" /></div><h3 class="title">'+productData.title+'</h3></a>';
+		    }
+		    $('#products').append(productItem);
+		});
+	}
+
+	function loadDemo(marketplace, identifier){
+		$('#demoIframe').attr('src', marketplaces[marketplace].products[identifier].demo_url);
+		$('#selectedProductItem').html('<span><img class="product-logo-sm" src="iframe-demo/assets/marketplaces/'+marketplace+'/'+identifier+'/logo-sm.png" alt=""/></span><span>'+marketplaces[marketplace].products[identifier].title+'</span><img class="dropdown-bottom-svg" src="iframe-demo/assets/svg/angle-arrow-down.svg">');
+		$('#buyLink').prop('href', marketplaces[marketplace].products[identifier].buy_now);
+		$('#productsModal').modal('toggle');
+
+
+		$('#product_doc_url').attr('href', marketplaces[marketplace].products[identifier].documentation);
+		$('#product_video_url').attr('href', marketplaces[marketplace].products[identifier].youtube);
+		$('#favicon').attr('href', 'assets/marketplaces/'+marketplace+'/'+identifier+'/logo-sm.png');
+		$('title').html(marketplaces[marketplace].products[identifier].title+' | Creativeitem');
+		window.history.pushState('Object or string', marketplaces[marketplace].products[identifier].title+'|Creativeitem', '?marketplace='+marketplace+'&product='+identifier);
+	}
+
+</script>
+        <link rel="stylesheet" href="iframe-demo/toolbox/css/style.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css" integrity="sha512-vebUliqxrVkBy3gucMhClmyQP9On/HAWQdKDXRaAlb/FKuTbxkjPKUyqVOxAcGwFDka79eTF+YXwfke1h3/wfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <div class="demo-option-container">
+    <div class="creativeitem__toolbar">
+        <div class="inner">
+            
+            <!-- THE FIRST <a> TAG SLIDES A RIGHT NAVIGATION MENU -->
+           <a class="hint--bounce hint--left hint--black primary-color-hover-important toolbox-icons" target="_blank" id="product_doc_url" href="https://creativeitem.com/docs/academy-lms/how-academy-works" aria-label="Support Center">
+               <!-- <i class="fas fa-file-alt" style="color : #2296f3";></i> -->
+               <img class="portable-link-svg" src="iframe-demo/toolbox/svg/document.svg">
+               <div class="toolbox-tooltip" style="right: 55px; margin-top: 7.3px;">Documentation</div>
+           </a>
+
+           <a class="hint--bounce hint--left hint--black primary-color-hover-important toolbox-icons" target="_blank" id="product_video_url" href="https://www.youtube.com/playlist?list=PLR1GrQCi5Zqvhh7wgtt-ShMAM1RROYJgE" aria-label="Support Center">
+            <!-- <i class="fab fa-youtube" style="color : #ed1b25";></i> -->
+            <img class="portable-link-svg" src="iframe-demo/toolbox/svg/video-tutorial.svg">
+            <div class="toolbox-tooltip" style="right: 55px;  margin-top: 7.3px;">Video tutorial</div>
+          </a>
+           <a class="hint--bounce hint--left hint--black primary-color-hover-important toolbox-icons" target="_blank" href="http://support.creativeitem.com" aria-label="Support Center">
+            <!-- <i class="fas fa-phone" style="color : #7c67e0"; ></i> -->
+            <img class="portable-link-svg" src="iframe-demo/toolbox/svg/support.svg">
+            <div class="toolbox-tooltip" style="right: 55px; margin-top: 7px;">Customer support</div> 
+          </a>
+   
+
+            <a class="hint--bounce hint--left hint--black primary-color-hover-important toolbox-icons" href="https://m.me/creativeitemApps" target="_blank" aria-label="Contact Us">
+                <!-- <i class="fab fa-facebook-messenger" style="color : #0B75FA";></i> -->
+                <img class="portable-link-svg" src="iframe-demo/toolbox/svg/live-chat.svg">
+                <div class="toolbox-tooltip" style="right: 55px; margin-top: 7px;">Live chat with us</div>
+            </a>
+             
+        </div>
+    </div>
+    <!-- End Toolbar -->
+    <!-- Start Quick Link -->
+    <div class="demo-option-wrapper">
+        <div class="demo-panel-header">
+            <div class="title">
+                <h5 class="heading heading-h5"> creativeitem – Creative Multipurpose Html5 Template</h5>
+                <div class="desc">
+                    <p class="bk_pra"> creativeitem embraces a modern look with various enhanced short codes, premium
+                        plugins and pre-defined page elements.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Quick Link -->
+</div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="iframe-demo/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="iframe-demo/assets/vendors/fontawesome/fontawesome.all.min.js"></script>
+    <script src="iframe-demo/assets/js/script.js"></script>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1D5E7FXVG8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-1D5E7FXVG8');
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '534203414472638');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" src="https://www.facebook.com/tr?id=534203414472638&ev=PageView
+    &noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+  </body>
+</html>
